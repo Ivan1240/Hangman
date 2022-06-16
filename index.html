@@ -15,7 +15,7 @@
   "ардуино",
   "ссылка"
 ];
-var word = words[Math.floor(Math.random() * words.length())];
+var word = words[Math.floor(Math.random() * words.length)];
 var answerArray = [];
 for (var i = 0; i < word.length; i++) {
   answerArray[i] = "_";
@@ -36,7 +36,7 @@ while (remainingLetters > 0) {
       }
     }
   }
-
+}
 alert(answerArray.join(" "));
 alert("Отлично! Было загадано слово " + word);
   </script>
